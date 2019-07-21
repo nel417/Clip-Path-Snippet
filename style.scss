@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+
+
+
+body {
+    background: #CBFFBD;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+    .inner {
+        background: #BDCFFF;
+        padding: 1em;
+        border-radius: 10px;
+        width: 275px;
+        clip-path: circle(10% at 90% 17%);
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+        position: fixed;
+        top:30%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+          
+        
+
+
+        &:hover {
+            clip-path: circle(100%);
+            background: #BDF3FF;
+        }
+
+        span {
+            float: right;
+            color: white;
+            font-weight: bold;
+            transition: color .5s;
+            position: relative;
+            margin-right: 4%;
+
+        }
+
+        &:hover span {
+            color: rgba(255,255,255,0);
+        }
+
+        h1 {
+            color: #000;
+            margin: 0;
+        }
+
+        p {
+            color: #000;
+            font-size: .8rem;
+        }
+
+    }
+
+   
+    .inner2 {
+        background: #BDCFFF;
+        padding: 1em;
+        border-radius: 10px;
+        width: 275px;
+        clip-path: circle(10% at 90% 15%);
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+        position: fixed;
+        top: 55%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+          
+
+
+        &:hover {
+            clip-path: circle(100%);
+            background: #BDF3FF;
+        }
+
+        .span2 {
+            float: right;
+            color: white;
+            font-weight: bold;
+            transition: color .5s;
+            position: relative;
+            margin-right: 4%;
+
+        }
+
+        &:hover .span2 {
+            color: rgba(255,255,255,0);
+        }
+
+        h1 {
+            color: #000;
+            margin: 0;
+        }
+
+        p {
+            color: #000;
+            font-size: .8rem;
+        }
+
+    }
+
+    .inner3 {
+        background: #BDCFFF;
+        padding: 1em;
+        border-radius: 10px;
+        width: 275px;
+        clip-path: circle(10% at 90% 16%);
+        transition: all 1s ease-in-out;
+        cursor: pointer;
+        position: fixed;
+        top: 80%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+          
+
+
+        &:hover {
+            clip-path: circle(100%);
+            background: #BDF3FF;
+        }
+
+        .span3 {
+            float: right;
+            color: white;
+            font-weight: bold;
+            transition: color .5s;
+            position: relative;
+            margin-right: 4%;
+
+        }
+
+        &:hover .span3 {
+            color: rgba(255,255,255,0);
+        }
+
+        h1 {
+            color: #000;
+            margin: 0;
+        }
+
+        p {
+            color: #000;
+            font-size: .8rem;
+        }
+
+    }
+
+   .pic {
+       height: 25px;
+       width: 25px;
+       align-items: center;
+       text-align: center;
+       padding-left: 45px;
+   }
+  
